@@ -1,0 +1,31 @@
+# --- Core scientific and data libraries ---
+numpy               # Fundamental package for numerical computations
+pandas              # Powerful data structures for data analysis and time series
+
+# --- Visualization libraries ---
+matplotlib          # Basic 2D plotting library
+seaborn             # Statistical data visualization based on matplotlib
+plotly              # Interactive visualizations and dashboards
+
+# --- Scientific and machine learning tools ---
+scipy               # Scientific computing (integration, interpolation, etc.)
+scikit-learn        # Machine learning algorithms and tools
+
+# --- Development and notebooks ---
+jupyter             # Jupyter notebook server for interactive development
+notebook            # Jupyter notebook web frontend
+
+# --- Web data access and scraping ---
+requests            # Easy HTTP requests for accessing APIs
+beautifulsoup4      # Parsing HTML and XML documents
+lxml                # XML and HTML processing library
+
+# --- Utilities ---
+tqdm                # Adds progress bars to loops
+openpyxl            # Read/write Excel files (.xlsx)
+
+# --- Astronomy and SSA-specific libraries ---
+astroquery          # Query astronomical databases from Python
+astropy             # Core library for astronomy and astrophysics
+skyfield            # Precise computation of positions for planets and satellites
+spacetrack          # Access NORAD's Space-Track.org for TLE data

@@ -1,0 +1,28 @@
+import plotly.express as px
+
+# 🖼️ Plotting function
+def plot_satellite_risk_map(df, sample_size=50):
+    sample_df = df.head(sample_size)
+    fig = px.scatter_geo(
+        sample_df,
+        lat="latitude",
+        lon="longitude",
+        color="risk_level",
+        hover_name="name",
+        size="altitude_km",
+        projection="natural earth",
+        title="🌐 Satellite Risk Map",
+        template="plotly_dark"
+    )
+    fig.update_layout(
+        legend=dict(title="🛰️ Risk Level"),
+        margin={"r": 0, "t": 50, "l": 0, "b": 0}
+    )
+    return fig
+
+# ✅ Generate the figure
+fig = plot_satellite_risk_map(df_features, sample_size=50)
+
+# 💾 Save to visualizations/ folder
+fig.write_html("visualizations/satellite_risk_map_sample.html")
+print("✅ Risk map saved to visualizations/satellite_risk_map_sample.html")

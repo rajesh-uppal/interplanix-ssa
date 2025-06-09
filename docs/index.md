@@ -9,3 +9,6 @@ To create a comprehensive platform for monitoring, modeling, and analyzing objec
 - [Mission Overview](mission.md)
 - [System Architecture](system-overview.md)
 - [Project Roadmap](roadmap.md)
+## 🚀 Visual Demos
+
+- [🛰️ Satellite Risk Map](satellite-risk-map.md)

@@ -15,8 +15,11 @@ This interactive visualization shows satellites classified by risk level based o
 ---
 
 ## 🌐 Live Visualization
+## 🛰️ Interactive Satellite Risk Map
 
-<iframe src="https://rajesh-uppal.github.io/interplanix-visualizations/satellite_risk_map_sample.html" width="100%" height="600" style="border:none;"></iframe>
+This tool shows active satellites color-coded by risk level based on orbital inclination:
+
+<iframe src="https://rajesh-uppal.github.io/interplanix-ssa/satellite_risk_map_sample.html" width="100%" height="600" style="border:none;"></iframe>
 
 ---
 
@@ -27,4 +30,28 @@ This interactive visualization shows satellites classified by risk level based o
 - **Visualization**: [`Plotly`](https://plotly.com/python/)
 - **Author**: Interplanix (2025)
 
+---⚠️ *This is a simplified risk model and is intended for demonstration purposes only.*
+
 ---
+
+## 🎯 Key Features
+
+- 🌍 Real-time satellite positioning using TLE data  
+- 🖼️ Interactive risk-layered orbital map  
+- 🔍 Hoverable tooltips with satellite name, altitude, and risk level  
+- 📁 Output as standalone HTML for easy sharing or hosting  
+
+---
+
+## 🔬 Use Cases
+
+- Space Situational Awareness (SSA)  
+- Collision threat modeling  
+- Orbital traffic monitoring  
+- Decision support for space operations
+
+---
+
+🄯 2025 **INTERPLANIX: Charting New Frontiers, Connecting Worlds**  
+*Powered by Open-Source Technologies and the Astra WordPress Theme*
+
